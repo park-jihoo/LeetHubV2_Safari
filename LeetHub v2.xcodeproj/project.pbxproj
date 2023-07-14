@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38ACA822A611D38009B110A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA812A611D38009B110A /* AppDelegate.swift */; };
+		F38ACA842A611D38009B110A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA832A611D38009B110A /* SceneDelegate.swift */; };
+		F38ACA872A611D38009B110A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA852A611D38009B110A /* LaunchScreen.storyboard */; };
+		F38ACA8A2A611D38009B110A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA882A611D38009B110A /* Main.storyboard */; };
+		F38ACA932A611D38009B110A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA922A611D38009B110A /* AppDelegate.swift */; };
+		F38ACA962A611D38009B110A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA942A611D38009B110A /* Main.storyboard */; };
+		F38ACA9E2A611D38009B110A /* LeetHub v2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F38ACA9D2A611D38009B110A /* LeetHub v2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F38ACAA82A611D38009B110A /* LeetHub v2 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F38ACAA72A611D38009B110A /* LeetHub v2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F38ACAAE2A611D38009B110A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA712A611D35009B110A /* Main.html */; };
+		F38ACAAF2A611D38009B110A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA712A611D35009B110A /* Main.html */; };
+		F38ACAB02A611D38009B110A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA732A611D35009B110A /* Icon.png */; };
+		F38ACAB12A611D38009B110A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA732A611D35009B110A /* Icon.png */; };
+		F38ACAB22A611D38009B110A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA742A611D35009B110A /* Style.css */; };
+		F38ACAB32A611D38009B110A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA742A611D35009B110A /* Style.css */; };
+		F38ACAB42A611D38009B110A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA752A611D35009B110A /* Script.js */; };
+		F38ACAB52A611D38009B110A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA752A611D35009B110A /* Script.js */; };
+		F38ACAB62A611D38009B110A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA762A611D35009B110A /* ViewController.swift */; };
+		F38ACAB72A611D38009B110A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA762A611D35009B110A /* ViewController.swift */; };
+		F38ACAB82A611D38009B110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA772A611D38009B110A /* Assets.xcassets */; };
+		F38ACAB92A611D38009B110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38ACA772A611D38009B110A /* Assets.xcassets */; };
+		F38ACABA2A611D38009B110A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA792A611D38009B110A /* SafariWebExtensionHandler.swift */; };
+		F38ACABB2A611D38009B110A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38ACA792A611D38009B110A /* SafariWebExtensionHandler.swift */; };
+		F38ACAD92A611D38009B110A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACD2A611D38009B110A /* popup.js */; };
+		F38ACADA2A611D38009B110A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACE2A611D38009B110A /* LICENSE */; };
+		F38ACADB2A611D38009B110A /* css in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACF2A611D38009B110A /* css */; };
+		F38ACADC2A611D38009B110A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD02A611D38009B110A /* popup.html */; };
+		F38ACADD2A611D38009B110A /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD12A611D38009B110A /* node_modules */; };
+		F38ACADE2A611D38009B110A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD22A611D38009B110A /* README.md */; };
+		F38ACADF2A611D38009B110A /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD32A611D38009B110A /* package-lock.json */; };
+		F38ACAE02A611D38009B110A /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD42A611D38009B110A /* package.json */; };
+		F38ACAE12A611D38009B110A /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD52A611D38009B110A /* scripts */; };
+		F38ACAE22A611D38009B110A /* welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD62A611D38009B110A /* welcome.html */; };
+		F38ACAE32A611D38009B110A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD72A611D38009B110A /* manifest.json */; };
+		F38ACAE42A611D38009B110A /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD82A611D38009B110A /* assets */; };
+		F38ACAE52A611D38009B110A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACD2A611D38009B110A /* popup.js */; };
+		F38ACAE62A611D38009B110A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACE2A611D38009B110A /* LICENSE */; };
+		F38ACAE72A611D38009B110A /* css in Resources */ = {isa = PBXBuildFile; fileRef = F38ACACF2A611D38009B110A /* css */; };
+		F38ACAE82A611D38009B110A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD02A611D38009B110A /* popup.html */; };
+		F38ACAE92A611D38009B110A /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD12A611D38009B110A /* node_modules */; };
+		F38ACAEA2A611D38009B110A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD22A611D38009B110A /* README.md */; };
+		F38ACAEB2A611D38009B110A /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD32A611D38009B110A /* package-lock.json */; };
+		F38ACAEC2A611D38009B110A /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD42A611D38009B110A /* package.json */; };
+		F38ACAED2A611D38009B110A /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD52A611D38009B110A /* scripts */; };
+		F38ACAEE2A611D38009B110A /* welcome.html in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD62A611D38009B110A /* welcome.html */; };
+		F38ACAEF2A611D38009B110A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD72A611D38009B110A /* manifest.json */; };
+		F38ACAF02A611D38009B110A /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F38ACAD82A611D38009B110A /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38ACA9F2A611D38009B110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38ACA6B2A611D35009B110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38ACA9C2A611D38009B110A;
+			remoteInfo = "LeetHub v2 Extension (iOS)";
+		};
+		F38ACAA92A611D38009B110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38ACA6B2A611D35009B110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38ACAA62A611D38009B110A;
+			remoteInfo = "LeetHub v2 Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F38ACAC12A611D38009B110A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F38ACA9E2A611D38009B110A /* LeetHub v2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACAC82A611D38009B110A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F38ACAA82A611D38009B110A /* LeetHub v2 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F38ACA722A611D35009B110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F38ACA732A611D35009B110A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F38ACA742A611D35009B110A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F38ACA752A611D35009B110A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F38ACA762A611D35009B110A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F38ACA772A611D38009B110A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38ACA792A611D38009B110A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F38ACA7E2A611D38009B110A /* LeetHub v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetHub v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38ACA812A611D38009B110A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F38ACA832A611D38009B110A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F38ACA862A611D38009B110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38ACA892A611D38009B110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38ACA8B2A611D38009B110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38ACA902A611D38009B110A /* LeetHub v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetHub v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38ACA922A611D38009B110A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F38ACA952A611D38009B110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38ACA972A611D38009B110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38ACA982A611D38009B110A /* LeetHub v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LeetHub v2.entitlements"; sourceTree = "<group>"; };
+		F38ACA9D2A611D38009B110A /* LeetHub v2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LeetHub v2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38ACAA22A611D38009B110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38ACAA72A611D38009B110A /* LeetHub v2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LeetHub v2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38ACAAC2A611D38009B110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38ACAAD2A611D38009B110A /* LeetHub v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LeetHub v2.entitlements"; sourceTree = "<group>"; };
+		F38ACACD2A611D38009B110A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../LeetHub-2.0/popup.js"; sourceTree = "<group>"; };
+		F38ACACE2A611D38009B110A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../LeetHub-2.0/LICENSE"; sourceTree = "<group>"; };
+		F38ACACF2A611D38009B110A /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../LeetHub-2.0/css"; sourceTree = "<group>"; };
+		F38ACAD02A611D38009B110A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../LeetHub-2.0/popup.html"; sourceTree = "<group>"; };
+		F38ACAD12A611D38009B110A /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = node_modules; path = "../../LeetHub-2.0/node_modules"; sourceTree = "<group>"; };
+		F38ACAD22A611D38009B110A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../LeetHub-2.0/README.md"; sourceTree = "<group>"; };
+		F38ACAD32A611D38009B110A /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "package-lock.json"; path = "../../LeetHub-2.0/package-lock.json"; sourceTree = "<group>"; };
+		F38ACAD42A611D38009B110A /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = "../../LeetHub-2.0/package.json"; sourceTree = "<group>"; };
+		F38ACAD52A611D38009B110A /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = "../../LeetHub-2.0/scripts"; sourceTree = "<group>"; };
+		F38ACAD62A611D38009B110A /* welcome.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = welcome.html; path = "../../LeetHub-2.0/welcome.html"; sourceTree = "<group>"; };
+		F38ACAD72A611D38009B110A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../LeetHub-2.0/manifest.json"; sourceTree = "<group>"; };
+		F38ACAD82A611D38009B110A /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../LeetHub-2.0/assets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38ACA7B2A611D38009B110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA8D2A611D38009B110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA9A2A611D38009B110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACAA42A611D38009B110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38ACA6A2A611D35009B110A = {
+			isa = PBXGroup;
+			children = (
+				F38ACA6F2A611D35009B110A /* Shared (App) */,
+				F38ACA782A611D38009B110A /* Shared (Extension) */,
+				F38ACA802A611D38009B110A /* iOS (App) */,
+				F38ACA912A611D38009B110A /* macOS (App) */,
+				F38ACAA12A611D38009B110A /* iOS (Extension) */,
+				F38ACAAB2A611D38009B110A /* macOS (Extension) */,
+				F38ACA7F2A611D38009B110A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38ACA6F2A611D35009B110A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACA762A611D35009B110A /* ViewController.swift */,
+				F38ACA772A611D38009B110A /* Assets.xcassets */,
+				F38ACA702A611D35009B110A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F38ACA702A611D35009B110A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACA712A611D35009B110A /* Main.html */,
+				F38ACA732A611D35009B110A /* Icon.png */,
+				F38ACA742A611D35009B110A /* Style.css */,
+				F38ACA752A611D35009B110A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F38ACA782A611D38009B110A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACACC2A611D38009B110A /* Resources */,
+				F38ACA792A611D38009B110A /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F38ACA7F2A611D38009B110A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACA7E2A611D38009B110A /* LeetHub v2.app */,
+				F38ACA902A611D38009B110A /* LeetHub v2.app */,
+				F38ACA9D2A611D38009B110A /* LeetHub v2 Extension.appex */,
+				F38ACAA72A611D38009B110A /* LeetHub v2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38ACA802A611D38009B110A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACA812A611D38009B110A /* AppDelegate.swift */,
+				F38ACA832A611D38009B110A /* SceneDelegate.swift */,
+				F38ACA852A611D38009B110A /* LaunchScreen.storyboard */,
+				F38ACA882A611D38009B110A /* Main.storyboard */,
+				F38ACA8B2A611D38009B110A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F38ACA912A611D38009B110A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACA922A611D38009B110A /* AppDelegate.swift */,
+				F38ACA942A611D38009B110A /* Main.storyboard */,
+				F38ACA972A611D38009B110A /* Info.plist */,
+				F38ACA982A611D38009B110A /* LeetHub v2.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F38ACAA12A611D38009B110A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACAA22A611D38009B110A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F38ACAAB2A611D38009B110A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACAAC2A611D38009B110A /* Info.plist */,
+				F38ACAAD2A611D38009B110A /* LeetHub v2.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F38ACACC2A611D38009B110A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F38ACACD2A611D38009B110A /* popup.js */,
+				F38ACACE2A611D38009B110A /* LICENSE */,
+				F38ACACF2A611D38009B110A /* css */,
+				F38ACAD02A611D38009B110A /* popup.html */,
+				F38ACAD12A611D38009B110A /* node_modules */,
+				F38ACAD22A611D38009B110A /* README.md */,
+				F38ACAD32A611D38009B110A /* package-lock.json */,
+				F38ACAD42A611D38009B110A /* package.json */,
+				F38ACAD52A611D38009B110A /* scripts */,
+				F38ACAD62A611D38009B110A /* welcome.html */,
+				F38ACAD72A611D38009B110A /* manifest.json */,
+				F38ACAD82A611D38009B110A /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38ACA7D2A611D38009B110A /* LeetHub v2 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38ACAC22A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 (iOS)" */;
+			buildPhases = (
+				F38ACA7A2A611D38009B110A /* Sources */,
+				F38ACA7B2A611D38009B110A /* Frameworks */,
+				F38ACA7C2A611D38009B110A /* Resources */,
+				F38ACAC12A611D38009B110A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38ACAA02A611D38009B110A /* PBXTargetDependency */,
+			);
+			name = "LeetHub v2 (iOS)";
+			productName = "LeetHub v2 (iOS)";
+			productReference = F38ACA7E2A611D38009B110A /* LeetHub v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38ACA8F2A611D38009B110A /* LeetHub v2 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38ACAC92A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 (macOS)" */;
+			buildPhases = (
+				F38ACA8C2A611D38009B110A /* Sources */,
+				F38ACA8D2A611D38009B110A /* Frameworks */,
+				F38ACA8E2A611D38009B110A /* Resources */,
+				F38ACAC82A611D38009B110A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38ACAAA2A611D38009B110A /* PBXTargetDependency */,
+			);
+			name = "LeetHub v2 (macOS)";
+			productName = "LeetHub v2 (macOS)";
+			productReference = F38ACA902A611D38009B110A /* LeetHub v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38ACA9C2A611D38009B110A /* LeetHub v2 Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38ACABE2A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 Extension (iOS)" */;
+			buildPhases = (
+				F38ACA992A611D38009B110A /* Sources */,
+				F38ACA9A2A611D38009B110A /* Frameworks */,
+				F38ACA9B2A611D38009B110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetHub v2 Extension (iOS)";
+			productName = "LeetHub v2 Extension (iOS)";
+			productReference = F38ACA9D2A611D38009B110A /* LeetHub v2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F38ACAA62A611D38009B110A /* LeetHub v2 Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38ACAC52A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 Extension (macOS)" */;
+			buildPhases = (
+				F38ACAA32A611D38009B110A /* Sources */,
+				F38ACAA42A611D38009B110A /* Frameworks */,
+				F38ACAA52A611D38009B110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetHub v2 Extension (macOS)";
+			productName = "LeetHub v2 Extension (macOS)";
+			productReference = F38ACAA72A611D38009B110A /* LeetHub v2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38ACA6B2A611D35009B110A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F38ACA7D2A611D38009B110A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F38ACA8F2A611D38009B110A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F38ACA9C2A611D38009B110A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F38ACAA62A611D38009B110A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F38ACA6E2A611D35009B110A /* Build configuration list for PBXProject "LeetHub v2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38ACA6A2A611D35009B110A;
+			productRefGroup = F38ACA7F2A611D38009B110A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38ACA7D2A611D38009B110A /* LeetHub v2 (iOS) */,
+				F38ACA8F2A611D38009B110A /* LeetHub v2 (macOS) */,
+				F38ACA9C2A611D38009B110A /* LeetHub v2 Extension (iOS) */,
+				F38ACAA62A611D38009B110A /* LeetHub v2 Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38ACA7C2A611D38009B110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAB02A611D38009B110A /* Icon.png in Resources */,
+				F38ACA872A611D38009B110A /* LaunchScreen.storyboard in Resources */,
+				F38ACAAE2A611D38009B110A /* Main.html in Resources */,
+				F38ACAB42A611D38009B110A /* Script.js in Resources */,
+				F38ACAB82A611D38009B110A /* Assets.xcassets in Resources */,
+				F38ACA8A2A611D38009B110A /* Main.storyboard in Resources */,
+				F38ACAB22A611D38009B110A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA8E2A611D38009B110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAB12A611D38009B110A /* Icon.png in Resources */,
+				F38ACAB32A611D38009B110A /* Style.css in Resources */,
+				F38ACA962A611D38009B110A /* Main.storyboard in Resources */,
+				F38ACAB52A611D38009B110A /* Script.js in Resources */,
+				F38ACAB92A611D38009B110A /* Assets.xcassets in Resources */,
+				F38ACAAF2A611D38009B110A /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA9B2A611D38009B110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAEC2A611D38009B110A /* package.json in Resources */,
+				F38ACAEB2A611D38009B110A /* package-lock.json in Resources */,
+				F38ACAEA2A611D38009B110A /* README.md in Resources */,
+				F38ACAEE2A611D38009B110A /* welcome.html in Resources */,
+				F38ACAED2A611D38009B110A /* scripts in Resources */,
+				F38ACAEF2A611D38009B110A /* manifest.json in Resources */,
+				F38ACAE72A611D38009B110A /* css in Resources */,
+				F38ACAE82A611D38009B110A /* popup.html in Resources */,
+				F38ACAE62A611D38009B110A /* LICENSE in Resources */,
+				F38ACAF02A611D38009B110A /* assets in Resources */,
+				F38ACAE92A611D38009B110A /* node_modules in Resources */,
+				F38ACAE52A611D38009B110A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACAA52A611D38009B110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAE02A611D38009B110A /* package.json in Resources */,
+				F38ACADF2A611D38009B110A /* package-lock.json in Resources */,
+				F38ACADE2A611D38009B110A /* README.md in Resources */,
+				F38ACAE22A611D38009B110A /* welcome.html in Resources */,
+				F38ACAE12A611D38009B110A /* scripts in Resources */,
+				F38ACAE32A611D38009B110A /* manifest.json in Resources */,
+				F38ACADB2A611D38009B110A /* css in Resources */,
+				F38ACADC2A611D38009B110A /* popup.html in Resources */,
+				F38ACADA2A611D38009B110A /* LICENSE in Resources */,
+				F38ACAE42A611D38009B110A /* assets in Resources */,
+				F38ACADD2A611D38009B110A /* node_modules in Resources */,
+				F38ACAD92A611D38009B110A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38ACA7A2A611D38009B110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAB62A611D38009B110A /* ViewController.swift in Sources */,
+				F38ACA822A611D38009B110A /* AppDelegate.swift in Sources */,
+				F38ACA842A611D38009B110A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA8C2A611D38009B110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACAB72A611D38009B110A /* ViewController.swift in Sources */,
+				F38ACA932A611D38009B110A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACA992A611D38009B110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACABA2A611D38009B110A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38ACAA32A611D38009B110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38ACABB2A611D38009B110A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38ACAA02A611D38009B110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38ACA9C2A611D38009B110A /* LeetHub v2 Extension (iOS) */;
+			targetProxy = F38ACA9F2A611D38009B110A /* PBXContainerItemProxy */;
+		};
+		F38ACAAA2A611D38009B110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38ACAA62A611D38009B110A /* LeetHub v2 Extension (macOS) */;
+			targetProxy = F38ACAA92A611D38009B110A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38ACA712A611D35009B110A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38ACA722A611D35009B110A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F38ACA852A611D38009B110A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38ACA862A611D38009B110A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F38ACA882A611D38009B110A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38ACA892A611D38009B110A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38ACA942A611D38009B110A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38ACA952A611D38009B110A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38ACABC2A611D38009B110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F38ACABD2A611D38009B110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F38ACABF2A611D38009B110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2.Extension";
+				PRODUCT_NAME = "LeetHub v2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38ACAC02A611D38009B110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2.Extension";
+				PRODUCT_NAME = "LeetHub v2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38ACAC32A611D38009B110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2";
+				PRODUCT_NAME = "LeetHub v2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38ACAC42A611D38009B110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2";
+				PRODUCT_NAME = "LeetHub v2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38ACAC62A611D38009B110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/LeetHub v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2.Extension";
+				PRODUCT_NAME = "LeetHub v2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F38ACAC72A611D38009B110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/LeetHub v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2.Extension";
+				PRODUCT_NAME = "LeetHub v2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F38ACACA2A611D38009B110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/LeetHub v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2";
+				PRODUCT_NAME = "LeetHub v2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F38ACACB2A611D38009B110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/LeetHub v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetHub v2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.LeetHub-v2";
+				PRODUCT_NAME = "LeetHub v2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38ACA6E2A611D35009B110A /* Build configuration list for PBXProject "LeetHub v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38ACABC2A611D38009B110A /* Debug */,
+				F38ACABD2A611D38009B110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38ACABE2A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38ACABF2A611D38009B110A /* Debug */,
+				F38ACAC02A611D38009B110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38ACAC22A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38ACAC32A611D38009B110A /* Debug */,
+				F38ACAC42A611D38009B110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38ACAC52A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38ACAC62A611D38009B110A /* Debug */,
+				F38ACAC72A611D38009B110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38ACAC92A611D38009B110A /* Build configuration list for PBXNativeTarget "LeetHub v2 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38ACACA2A611D38009B110A /* Debug */,
+				F38ACACB2A611D38009B110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38ACA6B2A611D35009B110A /* Project object */;
+}
