@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Shared (App)
 //
-//  Created by 박지후 on 2023. 7. 14..
+//  Created by 박지후 on 2023. 11. 27..
 //
 
 import WebKit
@@ -62,7 +62,7 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
 #if os(macOS)
         if (message.body as! String != "open-preferences") {
-            return;
+            return
         }
 
         SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
@@ -72,7 +72,7 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
             }
 
             DispatchQueue.main.async {
-                NSApplication.shared.terminate(nil)
+                NSApp.terminate(self)
             }
         }
 #endif
