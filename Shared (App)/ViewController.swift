@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Shared (App)
 //
-//  Created by 박지후 on 2023. 11. 27..
+//  Created by 박지후 on 2023. 12. 9..
 //
 
 import WebKit
@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "com.github.LeetHub-v2.Extension"
+let extensionBundleIdentifier = "com.github.LeetHub-v3.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

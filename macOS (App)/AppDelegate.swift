@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  macOS (App)
 //
-//  Created by 박지후 on 2023. 11. 27..
+//  Created by 박지후 on 2023. 12. 9..
 //
 
 import Cocoa
